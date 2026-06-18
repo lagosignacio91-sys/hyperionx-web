@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RovSystem - Plataforma avanzada de gestión de operaciones ROV submarinas">
+    <meta name="theme-color" content="#0a1628">
+    <title>RovSystem - Gestión de Operaciones ROV por HyperionX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 100%);
+            color: white;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: #0a1628;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #00d4ff, #0099ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #a0a8b8;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            color: #d0d8e8;
+            max-width: 600px;
+            margin: 20px auto 40px;
+            line-height: 1.8;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+            max-width: 900px;
+        }
+
+        .feature {
+            padding: 30px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 10px;
+            background: rgba(0, 212, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .feature:hover {
+            border-color: rgba(0, 212, 255, 0.5);
+            background: rgba(0, 212, 255, 0.1);
+        }
+
+        .feature h3 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .feature p {
+            color: #a0a8b8;
+            font-size: 0.95rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #00d4ff, #0099ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #a0a8b8;
+            font-size: 0.9rem;
+        }
+
+        .footer-links {
+            margin-top: 20px;
+        }
+
+        .footer-links a {
+            color: #00d4ff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🌊</div>
+
+        <h1>RovSystem</h1>
+        <p class="subtitle">Plataforma de Gestión de Operaciones ROV Submarinas</p>
+
+        <p class="description">
+            Gestiona tus centros de operación ROV con eficiencia máxima.
+            Control en tiempo real, análisis avanzado y colaboración simplificada.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🗺️ Mapeo en Tiempo Real</h3>
+                <p>Visualiza todos tus centros en un mapa interactivo con estado actualizado constantemente.</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Análisis Avanzado</h3>
+                <p>Reportes detallados y dashboards personalizados para tomar decisiones informadas.</p>
+            </div>
+            <div class="feature">
+                <h3>👥 Gestión de Equipos</h3>
+                <p>Administra operadores, asigna turnos y coordina operaciones con facilidad.</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 Seguridad Empresarial</h3>
+                <p>Infraestructura segura con autenticación avanzada y control de acceso por roles.</p>
+            </div>
+        </div>
+
+        <a href="https://app.hyperionx.tech" class="cta-button">Acceder a RovSystem</a>
+
+        <footer>
+            <p>&copy; 2026 HyperionX. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="mailto:lagosignacio91@gmail.com">Contacto</a>
+                <a href="https://hyperionx.tech">Sitio</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
